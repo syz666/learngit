@@ -1,7 +1,7 @@
 body {
   font_family: 'Roboto', sans-serif;
   font_weight: 300;
-  background-color: #fff;
+  background-color: #dad5e5;
   margin: 0 0;
 }
 
@@ -9,8 +9,20 @@ nav {
   margin: 0 0;
 }
 
+#header-base {
+  background-color: #434343;
+}
+
+.row text-center, h2, h4{
+  color: white;
+}
+
 .col-md-6 {
   margin: 0 0 10px;
+}
+
+.col-md-6 p {
+  font-size: 18px;
 }
 
 section .row img {
@@ -18,12 +30,9 @@ section .row img {
   width: 100%;
 }
 
-.poll {
-  background-color: pink;
-  height: 282px;
-}
 
 .poll ul li{
+  margin: 0 0;
   line-height: 3.6;
   font-size: 16px;
   list-style-type: none;

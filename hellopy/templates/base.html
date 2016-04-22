@@ -10,29 +10,29 @@
     <title>Hellopy</title>
 </head>
 <body>
-<nav class="navbar navbar-default" role="navigation">
-   <div class="navbar-header">
+<nav class="navbar navbar-inverse navbar-fixed-top" role="navigation">
+   <div class="container">
+    <div class="navbar-header">
       <button type="button" class="navbar-toggle" data-toggle="collapse"
-         data-target="#example-navbar-collapse">
-         <span class="sr-only">切换导航</span>
+         data-target="#navbar-collapse-basepage">
          <span class="icon-bar"></span>
          <span class="icon-bar"></span>
          <span class="icon-bar"></span>
       </button>
       <a class="navbar-brand" href="#">H & T</a>
    </div>
-   <div class="collapse navbar-collapse" id="example-navbar-collapse">
+   <div class="collapse navbar-collapse" id="navbar-collapse-basepage">
       <ul class="nav navbar-nav">
-         <li class="active"><a href="#">news</a></li>
-         <li><a href="#">world</a></li>
+         <li class="active"><a href="#">News</a></li>
+         <li><a href="#">World</a></li>
          <li class="dropdown">
             <a href="#" class="dropdown-toggle" data-toggle="dropdown">
-               more <b class="caret"></b>
+               More <b class="caret"></b>
             </a>
             <ul class="dropdown-menu">
-               <li><a href="#">money</a></li>
-               <li><a href="#">job</a></li>
-               <li><a href="#">other</a></li>
+               <li><a href="#">Money</a></li>
+               <li><a href="#">Job</a></li>
+               <li><a href="#">Other</a></li>
                <li class="divider"></li>
                <li><a href="#">login</a></li>
                <li class="divider"></li>
@@ -41,8 +41,9 @@
          </li>
       </ul>
    </div>
+   </div>
 </nav>
-<section class="jumbotron">
+<section class="jumbotron subhead" id="header-base">
     <div class="container">
         <div class="row text-center">
             <h2>最新动态</h2>
@@ -51,28 +52,9 @@
         </div>
     </div>
 </section>
-<section class="container">
-    <div class="row">
-    <div class="col-md-6">
-    <p>最新消息</p>
-    <img src="{% static 'images/74M.jpg' %}" alt="pic of poll" />
-    </div>
-    <div class="col-md-6">
-    <p>最新消息</p>
-    <img src="{% static 'images/74M.jpg' %}" alt="pic of poll" />
-    </div>
-    <div class="col-md-6">
-    <p>最新消息</p>
-    <img src="{% static 'images/74M.jpg' %}" alt="pic of poll" />
-    </div>
 
-    <div class="col-md-6">
-        <p>最新消息</p>
-        {% block content %}
-        {% endblock %}
-    </div>
-    </div>
-</section>
+{% block content %}
+{% endblock %}
 
 <footer>
     <div class="contaier">
