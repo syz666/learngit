@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html>
+<head>
+    {% load staticfiles %}
+    <meta charset="UTF-8">
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/css/bootstrap.min.css">
+    <link href="https://">
+    <link rel="stylesheet" type="text/css" href="{% static 'polls/bootp.css' %}">
+    <title>Hellopy</title>
+</head>
+<body>
+<header class="container">
+    <div class="row">
+        <h1 class="col-sm-8">Hellopy</h1>
+        <nav class="col-sm-4">
+            <p><a href="#">新闻</a></p>
+            <p><a href="#">分类</a></p>
+            <p><a href="#">登入</a></p>
+            <p><a href="#">注册</a></p>
+        </nav>
+    </div>
+</header>
+<section class="jumbotron">
+    <div class="container">
+        <div class="row text-center">
+            <h2>最新动态</h2>
+            <h4>This year is the most unstable year for 20 years recently.</h4>
+            <a class="btn btn-primary" href="#">See more</a>
+        </div>
+    </div>
+</section>
+<section class="container">
+    <div class="col-sm-6">
+    <p>最新消息</p>
+    <img src="{% static 'images/pic2.jpg' %}" alt="pic of poll" />
+    </div>
+    <div class="col-sm-6">
+    <p>最新消息</p>
+    <img src="{% static 'images/pic2.jpg' %}" alt="pic of poll" />
+    </div>
+    <div class="col-sm-6">
+    <p>最新消息</p>
+    <img src="{% static 'images/pic2.jpg' %}" alt="pic of poll" />
+    </div>
+    <div class="col-sm-6">
+    <p>最新消息</p>
+    <img src="{% static 'images/pic2.jpg' %}" alt="pic of poll" />
+    </div>
+</section>
+</body>
+</html>
