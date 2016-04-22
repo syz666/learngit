@@ -19,24 +19,24 @@
          <span class="icon-bar"></span>
          <span class="icon-bar"></span>
       </button>
-      <a class="navbar-brand" href="#">W3Cschool</a>
+      <a class="navbar-brand" href="#">H & T</a>
    </div>
    <div class="collapse navbar-collapse" id="example-navbar-collapse">
       <ul class="nav navbar-nav">
-         <li class="active"><a href="#">iOS</a></li>
-         <li><a href="#">SVN</a></li>
+         <li class="active"><a href="#">news</a></li>
+         <li><a href="#">world</a></li>
          <li class="dropdown">
             <a href="#" class="dropdown-toggle" data-toggle="dropdown">
-               Java <b class="caret"></b>
+               more <b class="caret"></b>
             </a>
             <ul class="dropdown-menu">
-               <li><a href="#">jmeter</a></li>
-               <li><a href="#">EJB</a></li>
-               <li><a href="#">Jasper Report</a></li>
+               <li><a href="#">money</a></li>
+               <li><a href="#">job</a></li>
+               <li><a href="#">other</a></li>
                <li class="divider"></li>
-               <li><a href="#">分离的链接</a></li>
+               <li><a href="#">login</a></li>
                <li class="divider"></li>
-               <li><a href="#">另一个分离的链接</a></li>
+               <li><a href="#">about</a></li>
             </ul>
          </li>
       </ul>
@@ -52,23 +52,34 @@
     </div>
 </section>
 <section class="container">
+    <div class="row">
     <div class="col-md-6">
     <p>最新消息</p>
-    <img src="{% static 'images/pic2.jpg' %}" alt="pic of poll" />
+    <img src="{% static 'images/74M.jpg' %}" alt="pic of poll" />
     </div>
     <div class="col-md-6">
     <p>最新消息</p>
-    <img src="{% static 'images/pic2.jpg' %}" alt="pic of poll" />
+    <img src="{% static 'images/74M.jpg' %}" alt="pic of poll" />
     </div>
     <div class="col-md-6">
     <p>最新消息</p>
-    <img src="{% static 'images/pic2.jpg' %}" alt="pic of poll" />
+    <img src="{% static 'images/74M.jpg' %}" alt="pic of poll" />
     </div>
 
     <div class="col-md-6">
+        <p>最新消息</p>
         {% block content %}
         {% endblock %}
     </div>
+    </div>
 </section>
+
+<footer>
+    <div class="contaier">
+    <p class="text-center"><strong>H & T</strong></p>
+    <p class="text-center"><strong>&copy;All rights reserved</strong></p>
+    <h5 class="text-center">Powered by &nbsp;<a href="#">Yongzheng</a></h5>
+    </div>
+</footer>
 </body>
 </html>

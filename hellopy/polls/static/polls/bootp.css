@@ -1,41 +1,30 @@
 body {
   font_family: 'Roboto', sans-serif;
   font_weight: 300;
+  background-color: #fff;
+  margin: 0 0;
 }
 
-header {
-  padding: 20px 0;
-}
-
-header .row,
-footer .row {
-  display: flex;
-  align-items: center;
-}
-
-header h1 {
-  font_weight: 700;
-  margin: 0;
-}
-
-header nav {
-  display； flex;
-  justify-content: flex-end;
-}
-
-nav p a:hover {
-  font_weight: bold;
-  text-decoration: none;
-}
-
-.jumbotron {
-  display: flex;
-  align-items: center;
-  background-size: cover;
-  color: #000;
-  text-shadow: 0.25px 0.25px 0.25px #000000;
+nav {
+  margin: 0 0;
 }
 
 .col-md-6 {
-  margin: 0 0 30px;
+  margin: 0 0 10px;
+}
+
+section .row img {
+  margin: 0 0 10px;
+  width: 100%;
+}
+
+.poll {
+  background-color: pink;
+  height: 282px;
+}
+
+.poll ul li{
+  line-height: 3.6;
+  font-size: 16px;
+  list-style-type: none;
 }
